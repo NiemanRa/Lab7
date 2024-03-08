@@ -10,15 +10,6 @@ typedef struct element {
     int swaps; // Number of Swaps
 } element;
 
-/*
-void swap(int* xp, int* yp)
-{
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
-*/
-
 // Total number of swaps is half of the individual swaps added together. 
 void bubbleSort(int* arr, int size) 
 {
